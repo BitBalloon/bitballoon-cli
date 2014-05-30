@@ -1,0 +1,27 @@
+{
+	"ImportPath": "github.com/bitballoon/bitballoon-cli",
+	"GoVersion": "go1.2",
+	"Deps": [
+		{
+			"ImportPath": "code.google.com/p/goauth2/oauth",
+			"Comment": "weekly-44",
+			"Rev": "696c088491246273e92442aa66b5281e5bb34faa"
+		},
+		{
+			"ImportPath": "github.com/BitBalloon/bitballoon-cli/commands",
+			"Rev": "df8d16c6a00265af9d6ff050d7648456ca8a5d56"
+		},
+		{
+			"ImportPath": "github.com/BitBalloon/bitballoon-go",
+			"Rev": "ec74881ccd72cbabe1473e5e8966b28227985d38"
+		},
+		{
+			"ImportPath": "github.com/spf13/cobra",
+			"Rev": "0330aef05c220120367226c43c7b583c72049eea"
+		},
+		{
+			"ImportPath": "github.com/spf13/pflag",
+			"Rev": "94e98a55fb412fcbcfc302555cb990f5e1590627"
+		}
+	]
+}
