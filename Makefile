@@ -1,10 +1,7 @@
-.PHONY: all godep fmt
+.PHONY: fmt
 
-all: godep
-	godep go install
-
-godep:
-	go get github.com/tools/godep
+build:
+	go build -o bitballoon
 
 fmt:
 	gofmt -s -w -l bitballoon.go create.go deploy.go main.go update.go

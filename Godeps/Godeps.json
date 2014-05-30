@@ -1,6 +1,6 @@
 {
 	"ImportPath": "github.com/bitballoon/bitballoon-cli",
-	"GoVersion": "go1.2",
+	"GoVersion": "go1.2.2",
 	"Deps": [
 		{
 			"ImportPath": "code.google.com/p/goauth2/oauth",
@@ -9,7 +9,7 @@
 		},
 		{
 			"ImportPath": "github.com/BitBalloon/bitballoon-go",
-			"Rev": "ec74881ccd72cbabe1473e5e8966b28227985d38"
+			"Rev": "d81357d9bbbf26a141e697249cde65ee8cd8c2f0"
 		},
 		{
 			"ImportPath": "github.com/spf13/cobra",
