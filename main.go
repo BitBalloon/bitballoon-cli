@@ -1,9 +1,5 @@
-package main
-
-import (
-	"github.com/BitBalloon/bitballoon-cli/commands"
-)
+package cli
 
 func main() {
-	commands.Execute()
+	Execute()
 }
