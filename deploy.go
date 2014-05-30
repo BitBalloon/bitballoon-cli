@@ -1,8 +1,8 @@
-package cli
+package main
 
 import (
-	"log"
 	"github.com/spf13/cobra"
+	"log"
 	"path/filepath"
 )
 

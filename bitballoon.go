@@ -1,10 +1,10 @@
-package cli
+package main
 
 import (
-	"os"
-	"log"
-	"github.com/spf13/cobra"
 	"github.com/BitBalloon/bitballoon-go"
+	"github.com/spf13/cobra"
+	"log"
+	"os"
 )
 
 var SiteId, AccessToken string

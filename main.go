@@ -1,4 +1,4 @@
-package cli
+package main
 
 func main() {
 	Execute()
