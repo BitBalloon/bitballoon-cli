@@ -8,7 +8,7 @@ import (
 var updateCmd = &cobra.Command{
 	Use:   "update",
 	Short: "update attributes of a BitBalloon site",
-	Long:  "updates name, domain, password or email",
+	Long:  "update attributes of a BitBalloon site. Name, domain, password and notification email can be updated.",
 }
 
 type updateString struct {
@@ -31,6 +31,7 @@ var updateName, updateDomain, updatePassword, updateEmail updateString
 func init() {
 	updateCmd.Run = update
 
+	updateCmd.Flags().StringVarP(&SiteId, "site", "s", "", "site domain or id")
 	updateCmd.Flags().VarP(&updateName, "name", "n", "Name of the site (must be a valid subdomain: <name>.bitballoon.com)")
 	updateCmd.Flags().VarP(&updateDomain, "domain", "d", "Custom domain for the site (only works for premium sites)")
 	updateCmd.Flags().VarP(&updatePassword, "password", "", "Password for the site")

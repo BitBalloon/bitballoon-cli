@@ -9,7 +9,7 @@ import (
 var createCmd = &cobra.Command{
 	Use:   "create",
 	Short: "create a new BitBalloon site",
-	Long:  "creates a new site and returns an ID you can deploy to",
+	Long:  "creates a new BitBalloon site and returns an ID you can deploy to",
 }
 
 var siteName, customDomain, password, notificationEmail string

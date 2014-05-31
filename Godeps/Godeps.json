@@ -9,7 +9,8 @@
 		},
 		{
 			"ImportPath": "github.com/BitBalloon/bitballoon-go",
-			"Rev": "d81357d9bbbf26a141e697249cde65ee8cd8c2f0"
+			"Comment": "v0.1.1-6-gf7fae8d",
+			"Rev": "f7fae8d98a3079dbc1ab86125389fad87916e77b"
 		},
 		{
 			"ImportPath": "github.com/spf13/cobra",

@@ -24,10 +24,11 @@ func AddCommands() {
 	BitBalloonCmd.AddCommand(createCmd)
 	BitBalloonCmd.AddCommand(updateCmd)
 	BitBalloonCmd.AddCommand(deployCmd)
+	BitBalloonCmd.AddCommand(publishCmd)
+	BitBalloonCmd.AddCommand(deleteCmd)
 }
 
 func init() {
-	BitBalloonCmd.PersistentFlags().StringVarP(&SiteId, "site", "s", "", "site domain or id")
 	BitBalloonCmd.PersistentFlags().StringVarP(&AccessToken, "token", "t", "", "API acccess token (https://www.bitballoon.com/applications)")
 }
 
